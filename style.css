@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --------header----------*/
+
+.material-symbols-outlined{
+    color: grey;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 70px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+
+}
+
+.header-left img{
+    width: 100px;
+    margin-left: 15px;
+}
+
+.header i{
+    padding: 0px 7px;
+    cursor: pointer;
+}
+
+.header-middle form{
+    display: flex;
+    border: 1px solid grey;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+.header-middle input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+
+}
+
+.header-middle button{
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+/* mainbody */
+
+.mainbody{
+    display: flex;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+}
+
+.sidebar{
+    height: 100%;
+    width: 230px;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.side_lists{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side_list{
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+}
+
+.side_list span{
+    margin-left: 30px;
+}
+
+.side_list:hover{
+    background-color: rgb(224, 219, 219);
+    cursor: pointer;
+}
+
+.sidedar::-webkit-scrollbar { 
+    display: none;
+}
+
+hr{
+    height: 1px;
+    border: 0;
+    background-color: rgb(224, 219, 219);
+
+}
+/* designing vedios */
+
+.video{
+    background-color:   rgb(231, 227, 227);
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+    border-top: 1px slid rgb(241, 241, 241);
+    overflow-y: scroll;
+
+}
+
+.vediocontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.videosquare{
+    display: flex;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.vediotitle{
+
+    padding: 30px;
+    justify-content: center;
+}
+.heading h3{
+    font-size: 14px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.title a, span{
+text-decoration: none;
+font-size: 12px;
+
+}
+
+h1 {
+
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: grey;
+
+}
